@@ -111,7 +111,6 @@ fi
 
 # Get Labels
 labels=$(docker inspect --format '{{json .Config.Labels}}' "$CONTAINER_ID_OR_NAME" | jq -r '. | to_entries[] | select(.value != null) | "--label " + .key + "=\"" + .value + "\"" + " "')
-echo $labels
 if [ -n "$labels" ]; then
     docker_run_cmd+=" $labels"
 fi
