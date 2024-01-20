@@ -8,3 +8,7 @@ To run this script:
 3. Run the script with your container ID or name: ./docker_recreate.sh your_container_id_or_name
 
 Make sure to have jq installed or install it during the run automatically
+
+It returns you a command to recreate a container, so you can edit all basic commands to recreate a container of your choice.
+
+If you need additional commands or arguments let me know and I will implement them.
