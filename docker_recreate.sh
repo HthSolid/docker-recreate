@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# copyright 2024
+# created and licensed by Hendrik Thurau Enterprises
+# free to use as long as you leave this copyright notice
+
 # Function to check if jq is installed
 check_jq_installed() {
     if ! command -v jq &> /dev/null; then
