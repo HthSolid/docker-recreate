@@ -2,6 +2,7 @@
 
 # copyright 2024
 # created and licensed by Hendrik Thurau Enterprises
+# https://hendrikthurau.enterprises
 # free to use as long as you leave this copyright notice
 
 # Function to check if jq is installed
